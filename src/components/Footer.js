@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from "react-router-dom";
 import Social from './Social';
-import './footer.css';
+import './css/footer.css';
  
 class Footer extends Component {
     render() {

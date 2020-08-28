@@ -7,7 +7,7 @@ h1, h5, p{
 
 #project-display{
 
-    background-image: url('./time.jpg');
+    background-image: url('../images/time.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     height: 100%;

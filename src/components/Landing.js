@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { init } from 'ityped';
-import './landing.css';
+import './css/landing.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from "react-router-dom";
 import '../pageTransitions/slideTransitions.scss';

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Socials from './Socials';
 import Details from './Details';
-import './contacts.css';
+import './css/contacts.css';
 
 
 

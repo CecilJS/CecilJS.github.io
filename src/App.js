@@ -44,7 +44,7 @@ class App extends Component {
       });
 
       if( newPage !== curPage){
-          console.log('new page');
+          
           let direction = curPageOrder[0].order < newPageOrder[0].order ? 'left' : 'right';
           // Set State
           this.setState({

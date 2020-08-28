@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import myAvatar from './myAvatar.jpg';
+import myAvatar from './images/myAvatar.jpg';
 import { Link } from "react-router-dom";
 
 
