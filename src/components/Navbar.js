@@ -18,24 +18,24 @@ import { Link } from "react-router-dom";
 
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     
-                            <ul className="navbar-nav mr-auto">
-                            <li className="nav-item active">
-                                <Link className="nav-link" to="/">Home</Link>
+                        <ul className="navbar-nav mr-auto styled-nav">
+                            <li className="nav-item">
+                                <Link className="nav-link nav-styles" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/about">About</Link>
+                                <Link className="nav-link nav-styles" to="/about">About</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/expertise">Expertise</Link>
+                                <Link className="nav-link nav-styles" to="/expertise">Expertise</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/projects" tabIndex="-1">Projects</Link>  
+                                <Link className="nav-link nav-styles" to="/projects">Projects</Link>  
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/contact" tabIndex="-1">Contact </Link>  
+                                <Link className="nav-link nav-styles" to="/contact">Contact </Link>  
                             </li>
                             
-                            </ul>
+                        </ul>
                         
                     </div>
                 </nav>

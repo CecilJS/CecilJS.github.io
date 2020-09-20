@@ -1,13 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
 
-a {
-    color: #FAFAFA;
-    text-shadow: 1px 1px 0 rgb(6, 132, 141);
-}
 
 nav {
 
     font-family: 'Alata', sans-serif;
+    
 }
 
+.nav-styles {
+    color: #FAFAFA!important;
+
+}
+
+.nav-styles:link {
+    text-shadow: 1px 1px 0 rgb(2, 48, 51);
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+
+.nav-styles:hover {
+    background-color: #FAFAFA!important;
+    color: rgb(6, 132, 141)!important;
+}
+
+.nav-styles:active {
+    background-color: #FAFAFA!important;
+    color: rgb(6, 132, 141)!important;
+}
+
+.nav-styles:visited {
+    background-color: #FAFAFA!important;
+    color: rgb(6, 132, 141);
+}
+
+
+.styled-nav {
+    background-color: rgb(6, 132, 141);
+    
+}
+
+li{
+
+    color: #FAFAFA;
+}

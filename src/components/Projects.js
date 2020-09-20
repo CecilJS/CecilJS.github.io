@@ -10,7 +10,7 @@ class Projects extends Component {
         return (
            <section className="container" >
                <div className="jumbotron jumbotron-fluid" id="project-display">
-                 <div className="container" >
+                 <div className="container col-sm-2" >
                     <h1 className="display-4" id="project">My Projects</h1>
                     <p className="text-center" id="project-content">I am constantly working on different projects and would definitely love to hear what you think them. 
                     The best place to see my projects is on my github repository. 

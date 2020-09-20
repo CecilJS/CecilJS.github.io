@@ -5,6 +5,7 @@ import './css/contacts.css';
 
 
 
+
 class Contact extends Component {
    
 
@@ -13,27 +14,34 @@ class Contact extends Component {
              //Bindings for props. Will be passed into the details component being imported as props value.
 
               const social = (
-                <div>
-                <p>If you are just being nice and want to say hello, by all means feel free to reach out to me on social media.</p>
-                 <div id="socials"> <Socials/></div> 
-                <p>If you would like me to be a mentor or even teach you to code, the best place to contact me is on 
-                <a href="https://www.linkedin.com/in/itscecil/" target="_blank" rel="noopener noreferrer" id="linkedin"> LinkedIn.</a>
-                </p>
-                </div>
+                            <React.Fragment>
+                                <React.Fragment>
+                                If you are just being nice and want to say hello, by all means feel free to reach out to me on social media.
+                                </React.Fragment>
+                            <div id="socials"> 
+                            <Socials/>
+                            </div> 
+                            <React.Fragment>If you would like me to be a mentor or even teach you to code, the best place to contact me is on 
+                                   <a href="https://www.linkedin.com/in/itscecil/" target="_blank" rel="noopener noreferrer" id="linkedin"> LinkedIn.</a>
+                            </React.Fragment>
+                            </React.Fragment>
               )  
 
              const contact = (
 
-                <div>
-                    <p>If you would like us to collaborate on a project, the best medium is to email <span>cecil@thetalkertive.co.uk.</span></p>
-                </div>
-             )  
+                            <React.Fragment>
+                                <React.Fragment>If you would like us to collaborate on a project, the best medium is to email <span> cecil@thetalkertive.co.uk. </span>
+                                 
+                                      
+                                </React.Fragment>
+                            </React.Fragment>
+                        )  
 
         return (
-            <div>
-                
+         
                 <Details
-                    title="I am a Communicator"
+                    img="https://media.giphy.com/media/1yT7hcwMSWklSqQFsy/source.gif"
+                    title="I am a communicator"
 
                     subject="Say Hello!"
 
@@ -42,8 +50,8 @@ class Contact extends Component {
                     supplementary={contact}
 
                     list={social}
-                />
-            </div>
+                 />
+           
         )
     }
 }

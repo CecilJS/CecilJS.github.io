@@ -14,6 +14,7 @@ h1, h5, p{
     padding: 20%;
 }
 
+
 #project-content {
 
  
@@ -28,3 +29,32 @@ h1, h5, p{
     position: relative;
     left: 30%;
 }
+
+@media(max-width: 1026px){
+
+    #project-display{
+
+        background-image: none;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 100%;
+        padding: 20%;
+    }
+
+    #project {
+        position: relative;
+        left: 5%;
+    }
+
+
+    #project-content {
+
+ 
+        padding: 10px;
+        opacity: .9;
+        border-radius: 2em;
+        position: relative;
+        left: 5%;
+    }
+}
+
