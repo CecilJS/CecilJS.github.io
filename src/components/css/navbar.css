@@ -50,3 +50,24 @@ li{
 
     color: rgb(6, 132, 141);
 }
+
+#hamburger{
+
+    color:#fafafa!important;
+    background-color: rgb(6, 132, 141);
+    border: 0!important;
+    height: 40px;
+    width: 60px;
+    position: relative;
+    left: 80%;
+}
+
+#hamburger .toggler {
+   
+    height: 3px;
+    width: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 0;
+    background-color: white!important;
+}

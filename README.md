@@ -1,4 +1,3 @@
-# CecilJS
 
 ## Software Engineer
 

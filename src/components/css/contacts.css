@@ -1,10 +1,29 @@
-#socials {
+#socials li {
 
     margin-left: 10%;
+    background-color: transparent;
 }
 
 #linkedin, span {
 
-    color: #663300;
+    color: #643516;
     text-decoration: none;
 }
+
+#communication-path {
+
+    text-align: center;
+}
+
+#contact-display, #contact-display a, #contact-display button {
+
+    background-color: #fafafa;
+    color:  #643516;
+}
+
+#work-path p, #social-path p {
+
+    color: #643516;
+}
+
+

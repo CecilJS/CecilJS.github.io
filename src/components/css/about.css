@@ -3,9 +3,43 @@
     margin-left: 20px;
 }
 
+
+#core-values li {
+
+    text-align: justify;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+*{
+
+    font-weight: 400;
+    font-family: 'Alata', sans-serif;
+
+}
+
 li {
 
-    list-style-type: none;
-    text-align: center;
-    font-weight: bold;
+    color: #fafafa;
+}
+
+#card-details {
+
+    background-image: url("../images/art.jpg");
+    background-position: center;
+    color: #fafafa;
+    border-radius: 1em;
+    
+}
+
+#card-cover {
+
+background-color:#643516;
+opacity: .9;
+border-radius: 1em;
+}
+
+#about-content {
+
+    text-align: justify;
 }
