@@ -3,16 +3,27 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import js from './images/JS.jpg';
 import rc from './images/react.jpg';
 import node from './images/node.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 class Expertise extends Component {
+
+     
+    componentDidMount(){
+        AOS.init({
+          duration : 2000
+        })
+      }
+
     render() {
         return (
             <React.Fragment>
-              <div id="carouselExampleCaptions" className=" container carousel slide" data-ride="carousel">
+              <div id="carouselExampleCaptions" className=" container carousel slide" data-ride="carousel" data-aos="fade-left">
                 <ol className="carousel-indicators">
                     <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
@@ -26,6 +37,13 @@ class Expertise extends Component {
                     <img src={rc} className="d-block w-100" alt="React JS"/>
                     <div className="carousel-caption d-md-block d-sm-block">
                         <h5>Frontend Development - React JS</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    </div>
+                    <div className="carousel-item">
+                    <img src={rc} className="d-block w-100" alt="React JS"/>
+                    <div className="carousel-caption d-md-block d-sm-block">
+                        <h5>DB Development - React JS</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                     </div>
