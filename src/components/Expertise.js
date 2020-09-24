@@ -30,7 +30,8 @@ class Expertise extends Component {
                     <img src={js} className="d-block w-100" alt="Javascript"/>
                     <div className="carousel-caption d-md-block">
                         <h5>Language of choice - Javascript</h5>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <p>As you will no doubt agree, a programming is just tool computer programmers use to accomplish any programmable tasks along with other tools ofcourse. 
+                        As an a sofware, I am comfortable with other programming languages like Python and C#, however, my programming lannguage of choice is JavaScript.</p>
                     </div>
                     </div>
                     <div className="carousel-item">
