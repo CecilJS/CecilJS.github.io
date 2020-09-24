@@ -46,7 +46,7 @@ class Expertise extends Component {
                     <img src={api} className="d-block w-100" alt="React JS"/>
                     <div className="carousel-caption d-md-block d-sm-block cover">
                         <h5>Appliaction Programming Interface -API </h5>
-                        <p>What will we do without APIs? I am comfortable with RESTful APIs. I can equally work with SOAP APIs when needed.</p>
+                        <p>What will we do without APIs? I am comfortable with RESTful APIs and can equally work with SOAP APIs when needed.</p>
                     </div>
                     </div>
                     <div className="carousel-item">
