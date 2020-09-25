@@ -11,18 +11,22 @@
 }
 
 
-@media(max-width: 412px){
+@media(max-width: 794px){
 
     .cover {
         background-color: #000;
         opacity: .7;
         padding: 5px;
-        height: 80%!important;
-        margin-top: 10px;
+        height: 90%!important;
     }
     
-    .cover img {
-        height: 100%;
+    .cover p {
+      margin-top: 20%;
+    }
+
+    .cover h5 {
+        margin-top: 10%;
+
     }
 
     *, ::after, ::before {
