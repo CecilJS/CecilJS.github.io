@@ -4,17 +4,18 @@
     background-color: transparent;
 }
 
-#linkedin, span {
-
-    color: #643516;
-    text-decoration: none;
-}
 
 #communication-path {
 
     text-align: center;
 }
 
+
+#contact-display{
+ border: 1px solid rgb(6, 132, 141)!important;
+ border-radius: 1em;
+
+}
 #contact-display, #contact-display a, #contact-display button {
 
     background-color: #fafafa;
@@ -33,4 +34,11 @@
     color:  rgb(6, 132, 141);
 }
 
+
+#work-path a, span {
+
+    color: #643516;
+    text-decoration: none;
+    font-weight: bold;
+}
 

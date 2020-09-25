@@ -38,7 +38,7 @@ class Contact extends Component {
                   <div className="collapse multi-collapse" id="multiCollapseExample1">
                    <div className="card card-body" id="work-path">
                     <p>If you would like me to be a mentor or even teach you to code, the best place to contact me is on 
-                       <a href="https://www.linkedin.com/in/itscecil/" target="_blank" rel="noopener noreferrer" id="linkedin"> LinkedIn</a>.            
+                       <a href="https://www.linkedin.com/in/itscecil/" target="_blank" rel="noopener noreferrer"> LinkedIn</a>.            
                     </p> 
                     
                     <p>

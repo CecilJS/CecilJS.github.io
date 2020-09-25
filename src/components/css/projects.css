@@ -31,8 +31,9 @@ h1, h5, p{
 #project-content a {
 
     background-color: #fafafa;
-    color: blueviolet;
+    color: rgb(6, 132, 141);
     padding: 2px;
+    font-weight: bold;
 }
 
 
