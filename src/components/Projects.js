@@ -18,9 +18,10 @@ class Projects extends Component {
                <div className="jumbotron jumbotron-fluid" id="project-display">
                  <div className="container col-sm-2" >
                     <h1 className="display-4" id="project">My Projects</h1>
-                    <p className="text-center" id="project-content" data-aos="fade-right">I am constantly working on different projects and would definitely love to hear what you think them. 
+                    <p className="text-center" id="project-content" data-aos="fade-right">
+                    I am constantly working on different projects and would definitely love to hear what you think about them. 
                     The best place to see my projects is on my github repository. 
-                    Please be sure to check them out and be generous with some feedback. 
+                    Please be sure to check them out and be generous with some feedback. To check out my repository, please click <a href="https://github.com/CecilJS" target="_blank" rel="noopener noreferrer">here.</a>  
                     </p>
                 </div>
                 </div>

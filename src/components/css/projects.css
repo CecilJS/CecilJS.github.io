@@ -12,6 +12,8 @@ h1, h5, p{
     background-repeat: no-repeat;
     height: 100%;
     padding: 20%;
+    background-color: blueviolet;
+    color: #fafafa;
 }
 
 
@@ -26,6 +28,15 @@ h1, h5, p{
     text-align: justify;
 }
 
+#project-content a {
+
+    background-color: #fafafa;
+    color: blueviolet;
+    padding: 2px;
+}
+
+
+
 #project {
     position: relative;
     left: 30%;
@@ -39,7 +50,7 @@ h1, h5, p{
         background-size: contain;
         background-repeat: no-repeat;
         height: 100%;
-        padding: 20%;
+        padding: 10%;
     }
 
     #project {
@@ -49,8 +60,6 @@ h1, h5, p{
 
 
     #project-content {
-
- 
         padding: 10px;
         opacity: .9;
         border-radius: 2em;
@@ -59,3 +68,24 @@ h1, h5, p{
     }
 }
 
+@media (max-width: 500px){
+
+    #project-content {
+        margin: 0;
+        padding: 10%;
+        position: relative;
+        left: 0;
+       
+        
+    }
+
+    #project-display{
+
+        background-image: none;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 100%;
+        padding: 0;
+    }
+    
+}

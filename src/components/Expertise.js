@@ -31,7 +31,7 @@ class Expertise extends Component {
                     <img src={js} className="d-block w-100" alt="Javascript"/>
                     <div className="carousel-caption d-none d-md-block cover" >
                         <h5>Language of choice - Javascript</h5>
-                        <p> As a sofware engineer, I am comfortable with other programming languages like Python and C#, however, my programming lannguage of choice is JavaScript.</p>
+                        <p> As a sofware engineer, I am comfortable with other programming languages like Python and C#, however my programming language of choice is JavaScript.</p>
                             
                     </div>
                     </div>
@@ -39,13 +39,13 @@ class Expertise extends Component {
                     <img src={rc} className="d-block w-100" alt="React JS"/>
                     <div className="carousel-caption d-none d-md-block d-sm-block cover">
                         <h5>Frontend Development - React JS</h5>
-                        <p>There is nothing better than being able to seperate your concerns while building complex user interfaces. I love React!</p>
+                        <p>There is nothing better than being able to separate your concerns while building complex user interfaces. I love React!</p>
                     </div>
                     </div>
                     <div className="carousel-item">
                     <img src={api} className="d-block w-100" alt="React JS"/>
                     <div className="carousel-caption d-md-block d-none d-sm-block cover">
-                        <h5>Appliaction Programming Interface -API </h5>
+                        <h5>Application Programming Interface -API </h5>
                         <p>What will we do without APIs? I am comfortable with RESTful APIs and can equally work with SOAP APIs when needed.</p>
                     </div>
                     </div>
@@ -53,7 +53,7 @@ class Expertise extends Component {
                     <img src={node} className="d-block w-100" alt="Node JS"/>
                     <div className="carousel-caption d-none d-md-block cover">
                         <h5>Backend Development - Node JS</h5>
-                        <p> I believe the beauty of JavaScript can be in seen our ability to use it from the Frontend to the Backend. I love JavaScript & the Node environment. </p>
+                        <p> I believe the beauty of JavaScript can be seen in our ability to use it from the Frontend to the Backend. I love JavaScript & the Node environment.</p>
                     </div>
                     </div>
                 </div>

@@ -23,7 +23,7 @@ class Contact extends Component {
               <div className="container col-sm-2" >
                  <h1 className="display-4" id="contact">Say Hello</h1>
                     <p data-aos="fade-right">
-                       To help us communicate effectively, I've put together a brief outline of the different mediums you should use when reaching out to me. Please use the appropriate button below
+                       To help us communicate effectively, I have put together a brief outline of the different mediums you could use when reaching out to me. Please use the appropriate button below
                        to find out more. I am eager to hear from you! 
                     </p>
      
