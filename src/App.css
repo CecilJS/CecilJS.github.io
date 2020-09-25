@@ -2,4 +2,32 @@
     background-color: #000;
     opacity: .7;
     padding: 5px;
+    height: 20%;
+}
+
+*, ::after, ::before {
+
+    box-sizing: content-box!important;
+}
+
+
+@media(max-width: 412px){
+
+    .cover {
+        background-color: #000;
+        opacity: .7;
+        padding: 5px;
+        height: 80%!important;
+        margin-top: 10px;
+    }
+    
+    .cover img {
+        height: 100%;
+    }
+
+    *, ::after, ::before {
+
+        box-sizing: content-box!important;
+    }
+   
 }
