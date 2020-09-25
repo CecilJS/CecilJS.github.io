@@ -18,12 +18,19 @@
 #contact-display, #contact-display a, #contact-display button {
 
     background-color: #fafafa;
-    color:  #643516;
+    color:  rgb(6, 132, 141);
+    border-color: rgb(6, 132, 141)!important;
+    margin-right: 5px;
+}
+
+#contact-display a:active, #contact-display button:active {
+    border-color: rgb(6, 132, 141)!important;
+
 }
 
 #work-path p, #social-path p {
 
-    color: #643516;
+    color:  rgb(6, 132, 141);
 }
 
 
