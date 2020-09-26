@@ -54,12 +54,12 @@ li{
 #hamburger{
 
     color:#fafafa!important;
-    background-color: rgb(6, 132, 141);
+    background-color:none;
     border: 0!important;
     height: 40px;
     width: 60px;
     position: relative;
-    left: 80%;
+    left: 45%;
 }
 
 #hamburger .toggler {
@@ -69,5 +69,5 @@ li{
     margin-top: 5px;
     margin-bottom: 5px;
     padding-left: 0;
-    background-color: white!important;
+    background-color: rgb(6, 132, 141)!important;
 }
